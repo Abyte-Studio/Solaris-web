@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Whitelist - Solaris RP</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="alertaWhitelist()">
+
+<div class="form-container">
+    <h1>Whitelist Solaris RP</h1>
+
+    <form id="whitelistForm">
+
+        <label>Usuario de Discord *</label>
+        <input type="text" name="discord" required>
+
+        <label>URL de Steam *</label>
+        <input type="url" name="steam" required>
+
+        <label>Edad Real *</label>
+        <input type="number" name="edad" required>
+
+        <hr>
+
+        <!-- PREGUNTAS -->
+        <label>¿Qué es el metagaming?</label>
+        <textarea name="¿Qué es el metagaming?" required></textarea>
+
+        <label>¿Qué es el powergaming?</label>
+        <textarea name="¿Qué es el powergaming?" required></textarea>
+
+        <label>Explica qué harías en un CK.</label>
+        <textarea name="¿Qué harías en un CK?" required></textarea>
+
+        <button type="submit">Enviar Whitelist</button>
+
+    </form>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
